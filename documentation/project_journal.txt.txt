@@ -1,0 +1,118 @@
+🎯 Project Journal – IPL Insights (2008–2025)
+
+A complete Power BI project decoding IPL data season-by-season — built from scratch with advanced DAX, dynamic visuals, and intuitive storytelling.
+
+━━━━━━━━━━━━━━━━━━━━
+📅 Day 1 – Data Collection & Modeling
+━━━━━━━━━━━━━━━━━━━━
+📁 Folder: /data_sources
+
+✔️ Collected and organized raw datasets:
+   - matches.csv
+   - deliveries.csv
+   - players_data.csv
+   - teams_data.csv
+
+✔️ Cleaned data:
+   - Fixed nulls and standardised naming.
+   - Verified key relationships.
+
+✔️ Imported into Power BI:
+   - Established model with correct relationships between matches, teams, deliveries, and players.
+
+✔️ Configured Season slicer across visuals for dynamic filtering.
+
+🧠 Notes:
+   - Handled team1/team2/winner logic via USERELATIONSHIP.
+   - Created a star schema model.
+
+━━━━━━━━━━━━━━━━━━━━
+📅 Day 2 – Season Overview Panel
+━━━━━━━━━━━━━━━━━━━━
+📁 Folder: /dax_measures
+
+✔️ Created visuals:
+   - Season Winner 🏆
+   - Runner-Up 🥈
+   - Added dynamic team logos using relationships.
+
+✔️ Measures implemented:
+   - `SeasonWinner`
+   - `SeasonRunnerUp`
+
+✔️ Slicer connected to all visuals to filter per season.
+
+💡 Idea:
+   - Final match determined using `match_number = "Final"`.
+
+━━━━━━━━━━━━━━━━━━━━
+📅 Day 3 – Player & Team Statistics
+━━━━━━━━━━━━━━━━━━━━
+📁 Folder: /dax_measures
+
+✔️ Core stats per season:
+   - Total Sixes
+   - Total Fours
+   - Total Centuries
+   - Total Half-Centuries
+   - Total Wickets (excluding non-bowler dismissals)
+   - Total Matches Played
+
+✔️ Cap Holders:
+   - Orange Cap (Player with most runs)
+   - Purple Cap (Bowler with most wickets)
+   - Both include: player name, team, and image
+
+✔️ Top Performers:
+   - Top Fours Player
+   - Top Sixes Player
+
+🧠 Notes:
+   - Used LOOKUPVALUE to get player images from `players_data.csv`.
+   - Complex filters applied to exclude "run out", "retired hurt", etc.
+
+━━━━━━━━━━━━━━━━━━━━
+📅 Day 4 – Points Table & Report Polish
+━━━━━━━━━━━━━━━━━━━━
+📁 Folder: /visual_screenshots
+
+✔️ Points Table Created:
+   - Matches Won, Matches Lost, Matches Played
+   - Points = Matches Won × 2
+   - Sorted table based on points descending
+
+✔️ DAX Measures Used:
+   - `MatchesWon`, `MatchesLost`, `MatchesPlayed`, `Points`
+
+✔️ Removed playoff matches:
+   - Included only 14 league matches per team
+
+✔️ Final Polish:
+   - Added report title: "IPL Insights (2008–2025)"
+   - Themed background
+   - Emoji-enhanced cards
+   - Added team logos and images
+   - Exported visuals to /visual_screenshots
+
+━━━━━━━━━━━━━━━━━━━━
+✅ Repository Structure Summary
+━━━━━━━━━━━━━━━━━━━━
+📁 dax_measures/ → All_DAX_Measures.txt  
+📁 data_sources/ → Raw IPL data (.csv)  
+📁 visual_screenshots/ → Snapshots of report pages  
+📁 documentation/ → This journal, README.md  
+📄 README.md → Project overview and GitHub guide
+
+━━━━━━━━━━━━━━━━━━━━
+📌 Highlights
+━━━━━━━━━━━━━━━━━━━━
+✔️ Over 18+ dynamic DAX measures  
+✔️ Interactive slicers, player KPIs, and visuals  
+✔️ Clean folder structure for GitHub  
+✔️ Focused on season-level insights only (no playoff breakdown)
+
+━━━━━━━━━━━━━━━━━━━━
+🚀 Live Link
+━━━━━━━━━━━━━━━━━━━━
+📊 View Dashboard: [Power BI Link – Sign-in Required]  
+📦 GitHub Repo: [GitHub Project Link]
