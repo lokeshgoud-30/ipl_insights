@@ -73,7 +73,7 @@ A complete **Power BI** dashboard project analyzing Indian Premier League data s
 
 ---
 
-## 🏁 Output Snapshot (2008 Season)
+## 🏁 Output Snapshot (2025 Season)
 
 ![IPL 2008-2025 Snapshot](https://github.com/lokeshgoud-30/ipl_insights/blob/main/visual_screen_shots/Screenshot%202025-07-15%20220449.png)
 
