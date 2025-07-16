@@ -114,5 +114,5 @@ A complete Power BI project decoding IPL data season-by-season — built from sc
 ━━━━━━━━━━━━━━━━━━━━
 🚀 Live Link
 ━━━━━━━━━━━━━━━━━━━━
-📊 View Dashboard: [Power BI Link – Sign-in Required]  
-📦 GitHub Repo: [GitHub Project Link]
+📊 View Dashboard: [https://app.powerbi.com/groups/me/reports/d546e913-961b-45e2-9cb4-ac12feddf694/837c53831364e7d56388?experience=power-bi]  
+📦 GitHub Repo: [https://github.com/lokeshgoud-30/ipl_insights]
